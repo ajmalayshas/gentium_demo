@@ -1,0 +1,167 @@
+body{
+    color: white;
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 5px;
+    font-family: 'Anton', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    f
+
+}
+
+
+.start{
+    max-width: 500px;
+    display: inline-block;
+}
+
+.start p{
+    font-size: 60px ;
+    font-weight: bolder;
+
+}
+
+.start button{
+    border: 3px solid #d83953;
+    padding: 10px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.box-container
+{
+padding-top: 100px;
+}
+
+.box{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: #1b1b1b;
+    position: static;
+}
+
+.box i{
+    font-size: 50px;
+    color: #d83953;
+}
+
+/* .box h2{
+    text-decoration: underline #d83953 ;
+} */
+
+.box:hover{
+
+    background-color: #d83953;
+}
+
+.box:hover p i{
+    color: white;
+}
+.box:hover u{
+    text-decoration-color: white ;
+}
+
+.box u{
+    text-decoration-color: #d83953 ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav u{
+    text-decoration-color:black;
+}
+
+nav:hover a u{
+    color: white;
+    text-decoration-color: #d83953;
+    text-decoration-thickness: 3px;
+
+}
+
+
+
+@media only screen and (max-width:424px){
+
+    body{
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+    }
+    
+    nav{
+        padding: 10px;
+        font-weight: bolder;
+        display: inline-block;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul li{
+        display: inline-block;
+        padding: 12px;
+    
+    }
+    nav ul{
+        padding: 10px;
+    }
+
+    .start{
+        max-width: 300px;
+        display: inline-block;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .start p{
+        font-size: 40px ;
+        font-weight: bolder;
+    
+    }
+    
+    .start button{
+        border: 1px solid #d83953;
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: black;
+        font-size: 8px;
+        font-weight: bold;
+        color: white;
+    
+    }
+
+.box{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: #1b1b1b;
+    position: static;
+    justify-content: center;
+}
+
+
+
+}
